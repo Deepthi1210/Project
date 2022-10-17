@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<style>
+  *{
+    background-color: rgb(96, 179, 202);
+  }
+</style>
+</head>
+<body>
+    <form action="/Signupsubmit" method="get" align="center" >
+      <h1>Registration Form</h1>
+      <br>
+        <div class="form-row" align="center">
+            <div class="form-group col-md-4">
+                <label for="inputFName4">First Name</label>
+                <input type="text" name="Firstname" class="form-control" id="inputName4" placeholder="First Name">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputLName4">Last Name</label>
+                <input type="text" name="Lastname" class="form-control" id="inputName4" placeholder="Last Name">
+              </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail4">Email</label>
+            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputPassword4">Password</label>
+            <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputNumber4">Phone Number</label>
+            <input type="number" name="number" class="form-control" id="inputPassword4" placeholder="Phone Number">
+          </div>
+        <div class="form-group col-md-4">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+</body>
+</html>
